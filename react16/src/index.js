@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
 function render(props) {
   const { container } = props;
   ReactDOM.render(<App />, container ? container.querySelector('#root') : document.querySelector('#root'));

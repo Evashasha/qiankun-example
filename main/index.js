@@ -61,7 +61,6 @@ setGlobalState({
     name: 'master',
   },
 });
-
 /**
  * Step3 设置默认进入的子应用
  */
